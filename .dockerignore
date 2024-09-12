@@ -1,1 +1,18 @@
-#todo
+# Ignore the .git directory and .gitignore file
+.git
+.gitignore
+
+# Ignore Dockerfile itself
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# Ignore README files
+README.md
+
+# Ignore any other unwanted files or directories
+.vscode
+__pycache__
+*.pyc
+*.pyo
+*.pyd
